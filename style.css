@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0 10%;
+  }
+
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 0 40px;
+}
+
+#nav-bar h1{
+    margin: 0;
+}
+
+.nav-links{
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* hero-sec */
+
+.hero-sec{
+    margin-top: 50px;
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    column-gap: 100px;
+}
+
+.hero-icons i{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.hero-sec div{
+    line-height: 40px;
+}
+
+.hero-sec-img img{
+    height: auto;
+    width: 300px;
+}
+
+#download-btn{
+    padding: 10px 15px;
+    border:2px solid rgb(44, 44, 44);
+    border-radius: 30px;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#contact-btn{
+    padding: 10px 15px;
+    border:2px solid rgb(44, 44, 44);
+    border-radius: 30px;
+    margin: 5px;
+    color: white;
+    background-color:  rgb(44, 44, 44);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* projects */
+
+.projects{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.project-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    column-gap: 20px;
+}
+
+.project{
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 20px;
+    padding: 2%;
+    line-height: 50px;
+}
+
+.project button{
+    padding: 10px 15px;
+    border:2px solid rgb(44, 44, 44);
+    border-radius: 30px;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.project button a{
+    text-decoration: none;
+    color: black;
+}
+
+.project img{
+    width: 200px;
+    height: auto;
+}
+
+/* about-me */
+
+.about-me{
+    display: flex;
+}
+
+
+.abt-me{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.expedu{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    margin-left: 100px;
+}
+
+.exp, .edu{
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+/* skill-list */
+
+.skills-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.skills{
+    margin-top: 20px;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 20px;
+    padding: 20px 20px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-list{
+    display: flex;
+    column-gap: 50px;
+    
+}
+
+
+
+  
+/* contactme */
+
+.contact-me{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contact-links{
+    margin-top: 20px;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 20px;
+    padding: 2%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.contact-links p{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.footer-links{
+    justify-content: center;
+    display: flex;
+    column-gap: 20px;
+    list-style: none; 
+    text-align: center;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer p{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: smaller;
+    color: rgb(44, 44, 44);
+}
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+    body {
+        margin: 0 5%;
+    }
+
+    .hero-sec{
+        flex-direction: column;
+    }
+
+    .project-list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project{
+        margin-bottom:20px ;
+    }
+
+    .expedu{
+        flex-direction: column;
+        
+    }
+
+    .exp{
+        margin-bottom: 20px;
+    }
+
+    .about-me{
+        display: block;
+    }
+
+    .abtme-img{
+        text-align: center;
+    }
+
+    
+}
+
+
